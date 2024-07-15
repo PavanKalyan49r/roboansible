@@ -27,7 +27,7 @@
   - name: download user content
     ansible.builtin.get_url:
       url: https://roboshop-builds.s3.amazonaws.com/user.zip
-      path: /tmp
+      dest: /tmp
 
   - name: extract user content
     ansible.builtin.unarchive:
