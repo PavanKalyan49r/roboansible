@@ -29,7 +29,7 @@
       dest: /tmp
 
   - name: unzip shipping file
-    ansible.builtin.unacrhive:
+    ansible.builtin.unarchive:
       src: /tmp/shipping.zip
       dest: /app
       remote_src: yes
