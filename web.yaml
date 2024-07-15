@@ -18,7 +18,7 @@
       state: directory
 
   - name: download web conent
-    ansible:builtin.grt_url:
+    ansible.builtin.grt_url:
       url: https://roboshop-builds.s3.amazonaws.com/web.zip
       dest: /tmp
 
